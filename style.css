@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.upper-section{
+    background-image:url("download\ \(3\)_auto_x2.jpg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 7;
+    height: 100%;
+}
+.lower-section{
+    background: #e3e3e3;
+    height: 100%;
+    flex: 3;
+}
+
+header{
+    display: flex;
+    width: 90%;
+    height: 15%;
+    margin: auto;
+}
+.logo{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo img{
+    /* width: 150px; */
+    height: 60px;
+}
+nav{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav h3{
+    color: white;
+    text-shadow:0.5px 0.5px whitesmoke;
+}
+nav h3:hover{
+    color: #1b0c43;
+    text-shadow:0.5px 0.5px purple;
+    cursor: pointer;
+}
+.utility{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.utility i{
+    color: white;
+}
+
+section{
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+.icon-section{
+    width: 5%;
+    /* background-color: azure; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+form{
+    width: 75%;
+    /* background-color: blue; */
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input-fields{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.input-fields input{
+    width: 45%;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    background: #9B6DED;
+    margin: 0 !important;
+    border-bottom: 1px solid #23042a;
+    color: white !important;
+}
+form textarea{
+    width: 95%;
+    height: 150px !important;
+    background:#9B6DED;
+    border-bottom: 1px solid #23042a;
+    border-right: 1px solid #23042a;
+    border-left: 1px solid #23042a;
+    padding: 12px;
+    margin: 5px;
+    color: white !important;
+}
+.myInput:focus,form textarea:focus{
+    outline: none !important;
+}
+::placeholder { 
+    color: #4C4C4C;
+    font-weight: 900;
+    opacity: 1; 
+}
+form button{
+    border: 2px solid #23042a;
+    background: none;
+    color: #4C4C4C;
+    font-weight: 900;
+    width: 120px;
+    height: 40px;
+}
+form button:hover{
+    background: #23042a;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer-section1{
+    height: 75%;
+    background-color: #1b0c43;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.footer-section2{
+    height: 25%;
+    background-color: rebeccapurple;
+    width: 100%;
+    z-index: 1;
+    /* filter: blur(1px); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.info-in-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-in-footer span{
+    font-size: 14px;
+    margin:2px;
+}
+
+.footer-section2 a{
+    color: white;
+    text-decoration: none;
+}
+.footer-icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
